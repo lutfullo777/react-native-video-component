@@ -1,6 +1,6 @@
 {
-  "name": "react-native-video-component",
-  "version": "0.1.0",
+  "name": "@video/react-native-video",
+  "version": "0.0.1",
   "description": "playing video using react-native-video",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -81,7 +81,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-orientation-locker":"*"
   },
   "engines": {
     "node": ">= 16.0.0"
@@ -159,5 +160,11 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-native-svg": "^13.13.0",
+    "@miblanchard/react-native-slider": "^2.3.1",
+    "react-native-system-setting": "https://github.com/lutfullo777/react-native-system-setting"
   }
 }

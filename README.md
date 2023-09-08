@@ -11,11 +11,18 @@ npm install react-native-video-component
 ## Usage
 
 ```js
-import { VideoComponentView } from "react-native-video-component";
+import Video from '@video/react-native-video';
 
 // ...
 
-<VideoComponentView color="tomato" />
+<Video
+  urls={[
+    {
+      quality: 720,
+      url: 'https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8',
+    },
+  ]}
+/>;
 ```
 
 ## Contributing
